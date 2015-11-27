@@ -1,0 +1,160 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+	.spread{
+		display: table;
+		margin: 0 auto;
+		overflow:hidden;
+		min-width:500px;
+		min-height:200px;
+		max-width:100%;
+		max-height:700px;
+	}
+	.jumbotron .btn, h1 .btn{
+		float:right;
+		margin-right:15px;
+		margin-bottom:5px;
+	}
+	.sect{
+		border:1px solid gray;
+		border-radius:10px;
+	}
+	.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+ 
+    font-weight: 700;
+    color: white;
+    display: inline-block;
+	cursor: pointer;
+}
+
+      .axis .label {
+        font-size: 20pt;
+      }
+	  
+	  .axis path, .axis line {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+      }
+
+	  fieldset { 
+		margin-left: -20px;
+		margin-right: -7px;
+		padding-top: 0.35em;
+		padding-bottom: 0.625em;
+
+		border: 2px groove;		  
+	}
+	legend{
+		font-size:1em;
+	}
+	.rule {
+	  fill: #000;
+	}
+	.changeInput{
+		background:yellow;
+	}
+	.chart-line {
+        fill: none;
+        stroke: green;
+        stroke-width: 2px;
+      }
+	 .tick line{
+		opacity: 0.2;
+	  }
+	 .col-xs-10{
+		 background:white;
+		 padding-right:5px;
+	 }
+		.legend{
+			margin:25px;
+			stroke:white;
+		}

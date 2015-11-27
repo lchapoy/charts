@@ -1,0 +1,36 @@
+<div class='jumbotron gridContainer'>
+	<h4 class='text-center'>{{title}}</h4>
+
+	<div class="row">
+	  <div class="col-xs-2">
+	   <form name="myForm" class="xAxis" >
+		  <fieldset>
+		  <legend>Y axis:</legend>
+			<span  ng-repeat="(key, value) in xaxis">
+			  <label>
+				<input   type="radio" name="x"  ng-model="varAx.x" value="{{value}}" >
+				{{key}}
+			   </label>
+			   <br>
+			  </span>
+		   </fieldset>
+		</form>
+		<form name="myForm" class="yAxis" >
+			<fieldset>
+			<legend>X axis:</legend>
+			<span ng-repeat="(key, value) in yaxis">
+			   <label >
+				<input   type="radio" name="y"  ng-model="varAx.y" value="{{value}}">
+				{{key}}
+			  </label>
+			   <br>
+		  </span>
+		  </fieldset>
+		</form>
+	  </div>
+	  <div class="col-xs-10">	
+		
+	  </div>
+	</div>
+	
+</div>
