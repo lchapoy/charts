@@ -30,8 +30,8 @@ angular
 				},
 				"viewB": {  
 					templateUrl: 'views/barsgraph.html',
-					controller: 'BarsgraphCtrl',
-					controllerAs: 'barsGraph' 
+					controller: 'graphCtrl',
+					controllerAs: 'graph' 
 				}
 			}	
 		})
@@ -45,8 +45,8 @@ angular
 				},
 				"viewB": {  
 					templateUrl: 'views/linechart.html',
-					controller: 'BarsgraphCtrl',
-					controllerAs: 'barsGraph' 
+					controller: 'graphCtrl',
+					controllerAs: 'graph' 
 				}
 		  }
 		})
@@ -60,8 +60,8 @@ angular
 				},
 				"viewB": {  
 					templateUrl: 'views/piechart.html',
-					controller: 'BarsgraphCtrl',
-					controllerAs: 'barsGraph' 
+					controller: 'graphCtrl',
+					controllerAs: 'graph' 
 				}
 		  }
 		})
